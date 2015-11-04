@@ -37,6 +37,8 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
     compile("org.springframework.boot:spring-boot-starter-jetty")
     compile("org.springframework.boot:spring-boot-starter-jersey")
+    compile("edu.stanford.nlp:stanford-corenlp:3.5.2")
+    compile("edu.stanford.nlp:stanford-corenlp:3.5.2:models")
     compile("org.projectlombok:lombok:1.16.4")
     testCompile("org.springframework.boot:spring-boot-starter-test") 
 }
